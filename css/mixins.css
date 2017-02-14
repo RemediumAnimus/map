@@ -1,0 +1,57 @@
+
+/* line 297 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+
+/* line 1 : H:\OpenServer\domains\localhost\selectel\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * Simple Mixins Collections for Stylus
+ * @version 0.0.5
+ * @author Guilherme Santiago
+ * @repo https://github.com/gsantiago/mixins-stylus
+ */
+
+/* line 8 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * image-url ($file)
+ */
+
+/* line 20 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * font-url ($file)
+ */
+
+/* line 32 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * font-face
+ */
+
+/* line 46 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * placeholder
+ */
+
+/* line 63 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * triangle
+ */
+
+/* line 106 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * absolute-center
+ */
+
+/* line 125 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * after pseudo-element
+ */
+
+/* line 136 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * before pseudo-element
+ */
+
+/* line 147 : H:\OpenServer\domains\localhost\selectel\src\stylus\mixins.styl */
+/**
+ * generate both, 'after' and 'before' pseudoelements
+ */

@@ -1,0 +1,336 @@
+textarea {
+  resize: none; }
+
+.wrap {
+  width: 764px;
+  margin: 0px auto; }
+
+.n-container {
+  padding: 0px 30px; }
+
+.n-pic {
+  height: 64px;
+  padding-top: 25px; }
+
+.n-part__header {
+  color: #484b4f;
+  font-size: 28px;
+  padding-top: 50px;
+  font-family: "pf_din_text_cond_promedium"; }
+
+.n-part__subheader {
+  color: #4f5257;
+  font-size: 17px;
+  padding-top: 15px;
+  margin-bottom: 40px;
+  font-family: "pf_din_text_cond_proregular"; }
+
+.n-part__tabs ul {
+  overflow: hidden; }
+  .n-part__tabs ul li {
+    float: left;
+    width: 20%;
+    background: #1f2022;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-family: arial;
+    height: 140px;
+    box-sizing: border-box;
+    border-right: 1px solid #3e3e40;
+    transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear; }
+    .n-part__tabs ul li img {
+      opacity: 0.5;
+      transition: all 0.15s linear;
+      -webkit-transition: all 0.15s linear;
+      -moz-transition: all 0.15s linear; }
+    .n-part__tabs ul li span {
+      display: block;
+      text-align: center; }
+    .n-part__tabs ul li b {
+      font-weight: normal;
+      text-align: center;
+      display: block; }
+    .n-part__tabs ul li:last-child {
+      border-right: 0; }
+    .n-part__tabs ul li:hover {
+      background: #db000b; }
+      .n-part__tabs ul li:hover img {
+        opacity: 1; }
+  .n-part__tabs ul .active {
+    background: #db000b; }
+    .n-part__tabs ul .active img {
+      opacity: 1; }
+
+.n-part__plan {
+  background: #1f2022;
+  height: 600px;
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden; }
+  .n-part__plan:after {
+    display: block;
+    content: '';
+    width: 83px;
+    height: 27px;
+    background: url(../img/roof.png);
+    position: absolute;
+    top: 270px;
+    right: 260px; }
+  .n-part__plan__header {
+    height: 75px;
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 3; }
+  .n-part__plan__wrap ul li {
+    display: none; }
+    .n-part__plan__wrap ul li img {
+      position: absolute;
+      bottom: -5px;
+      width: 110%;
+      left: -5%; }
+    .n-part__plan__wrap ul li:nth-child(3):after {
+      display: block;
+      content: '';
+      width: 208px;
+      height: 96px;
+      position: absolute;
+      background: url(../img/park.png);
+      right: 25px;
+      bottom: 25px; }
+  .n-part__plan__wrap ul .active {
+    display: block; }
+  .n-part__plan__check {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer; }
+    .n-part__plan__check span {
+      display: inline-block;
+      color: #fff;
+      font-size: 20px;
+      font-family: 'pf_din_text_cond_proregular';
+      padding-left: 10px; }
+  .n-part__plan .n-checker {
+    width: 30px;
+    height: 14px;
+    background: #515151;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative; }
+    .n-part__plan .n-checker__circle {
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: -5px;
+      top: -3px; }
+  .n-part__plan .active .n-checker {
+    background: #e3000b; }
+    .n-part__plan .active .n-checker .n-checker__circle {
+      left: auto;
+      right: -5px; }
+
+.n-part__services {
+  padding-top: 25px; }
+
+.n-part__table {
+  display: table;
+  width: 100%; }
+
+.n-part__service {
+  overflow: hidden;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px 0px rgba(30, 3, 2, 0.42);
+  padding: 30px;
+  margin-bottom: 20px; }
+  .n-part__service__left {
+    display: table-cell;
+    vertical-align: middle;
+    width: 130px;
+    text-align: center; }
+  .n-part__service__right {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 40px; }
+    .n-part__service__right ul li {
+      padding-left: 20px;
+      font-size: 18px;
+      color: #5f6165;
+      font-family: "pf_din_text_cond_proregular";
+      margin-bottom: 10px;
+      position: relative; }
+      .n-part__service__right ul li a {
+        transition: all 0.15s linear;
+        -webkit-transition: all 0.15s linear;
+        -moz-transition: all 0.15s linear; }
+        .n-part__service__right ul li a:hover {
+          color: #2e2f30; }
+      .n-part__service__right ul li:before {
+        display: block;
+        content: '';
+        width: 6px;
+        height: 6px;
+        background: #db000b;
+        position: absolute;
+        top: 8px;
+        left: 0;
+        border-radius: 50%; }
+  .n-part__service__header {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: "pf_din_text_cond_promedium";
+    margin-bottom: 15px; }
+
+.n-part__map {
+  position: relative; }
+
+.n-infoblock {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  width: 250px;
+  max-height: 300px;
+  background: #fff;
+  -ms-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  z-index: 5;
+  overflow: auto;
+  display: none; }
+  .n-infoblock__dest {
+    font-size: 15px; }
+  .n-infoblock__container {
+    overflow: hidden;
+    padding: 20px 10px 20px 10px; }
+  .n-infoblock__timer {
+    border-top: 1px solid #e9e9e9;
+    padding: 20px;
+    font-size: 14px; }
+  .n-infoblock__r {
+    padding: 0px 0px 15px 47px;
+    box-sizing: border-box;
+    position: relative; }
+    .n-infoblock__r:first-child:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 10px;
+      top: -2px;
+      width: 24px;
+      height: 24px;
+      background: #2b9af3 url("../img/icons-43.svg") no-repeat 50%;
+      background-size: 12px;
+      border-radius: 50%; }
+    .n-infoblock__r:first-child:before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 21px;
+      bottom: 0;
+      border-left: 2px solid #2b9af3;
+      z-index: 2; }
+    .n-infoblock__r:nth-child(2):after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 10px;
+      top: -2px;
+      width: 24px;
+      height: 24px;
+      background: #fff no-repeat 50%;
+      border: 2px solid #2b9af3;
+      background-size: 12px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      z-index: 2; }
+    .n-infoblock__r:nth-child(3):after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 8px;
+      left: 13px;
+      margin: -10px 0 0;
+      width: 20px;
+      height: 20px;
+      background: #fff url("../img/icons-27.svg");
+      background-size: 20px; }
+    .n-infoblock__r:nth-child(3):before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: -30px;
+      left: 21px;
+      bottom: 0;
+      border-left: 2px dotted #aaa; }
+    .n-infoblock__r:nth-child(4):after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 0px;
+      margin: -10px 0 0;
+      width: 40px;
+      height: 40px;
+      background: #fff url("../img/logo-mini.png") no-repeat;
+      background-size: contain; }
+  .n-infoblock__header {
+    font-size: 15px;
+    margin-bottom: 20px;
+    position: relative; }
+  .n-infoblock__subheader {
+    font-size: 13px;
+    color: #999; }
+  .n-infoblock__val {
+    margin-bottom: 10px; }
+    .n-infoblock__val span {
+      background: #2b9af3;
+      display: inline-block;
+      vertical-align: top;
+      margin: 5px 0 0 5px;
+      padding: 1px 4px;
+      color: #fff;
+      font-size: 13px; }
+
+.n-btns {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  display: none; }
+  .n-btns .active {
+    background: #420003; }
+
+.n-btn {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 10px;
+  background: #db000b;
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 3px;
+  cursor: pointer; }
+  .n-btn:hover {
+    background: #420003; }
+  .n-btn img {
+    line-height: 32px; }
+
+#n-map {
+  width: 100%;
+  height: 385px;
+  margin-bottom: 20px; }
+
+.gotoymaps {
+  display: none !important; }
+
+#n-step {
+  font-size: 13px; }

@@ -1,0 +1,238 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title> </title>
+	<meta name="viewport" content="width=320, initial-scale=0.45 ">
+	
+	<!-- Reset styles -->
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css" >
+
+    <!-- Template styles -->
+	<link rel="stylesheet" href="css/fonts.css" >
+	<link rel="stylesheet" href="css/styles.css" >
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="js/delivery.js"></script>
+
+</head>
+
+<body>
+<div class="wrap"><!--Эту обертку надо убрать-->
+	<div class="n-content">
+		<div class="n-part">
+			<div class="n-part__container">
+				<div class="n-container">
+					<div class="n-part__header">
+						Построить  маршрут до Арены Омск
+					</div>
+					<div class="n-part__subheader">
+						(ул. Лукашевича, 35)
+					</div>
+				</div>
+				<div class="n-part__tabs">
+					<ul>
+						<li class="n-s1"><span><div class="n-pic"><img src="img/n-i1.png" alt=""></div><b>Аэропорт</b></span></li>
+						<li class="n-s2"><span><div class="n-pic"><img src="img/n-i2.png" alt=""></div><b>Ж/д вокзал</b></span></li>
+						<li class="n-s3"><span><div class="n-pic"><img src="img/n-i3.png" alt=""></div><b>Автовокзал</b></span></li>
+						<li class="n-s4"><span><div class="n-pic"><img src="img/n-i4.png" alt=""></div><b>Центр</b></span></li>
+						<li class="n-s5"><span><div class="n-pic"><img src="img/n-i5.png" alt=""></div><b>Указать отправление</b></span></li>
+					</ul>
+				</div>
+				<div class="n-part__map">
+					<div class="n-btns">
+						<div class="n-btn active" id="autoBtn">
+							<img src="img/auto.svg" alt="">
+						</div>
+						<div class="n-btn" id="busBtn">
+							<img src="img/bus.svg" alt="">
+						</div>
+					</div>
+					<div class="n-infoblock">
+						<div class="n-infoblock__container">
+							<div class="n-infoblock__r">
+								<div class="n-infoblock__part">
+									<div class="n-infoblock__header" id="n-head">
+
+									</div>
+									<div class="n-infoblock__subheader" id="bus">
+
+									</div>
+									<div class="n-infoblock__val" id="bus-val">
+
+									</div>
+								</div>
+								<div class="n-infoblock__part">
+									<div class="n-infoblock__subheader" id="trollbus">
+
+									</div>
+									<div class="n-infoblock__val" id="trollbus-val">
+
+									</div>
+								</div>
+								<div class="n-infoblock__part">
+									<div class="n-infoblock__subheader" id="subbus">
+
+									</div>
+									<div class="n-infoblock__val" id="subbus-val">
+
+									</div>
+								</div>
+							</div>
+							<div class="n-infoblock__r">
+								<div class="n-infoblock__part">
+									<div class="n-infoblock__header" id="n-subhead">
+
+									</div>
+								</div>
+							</div>
+							<div class="n-infoblock__r">
+								<div class="n-infoblock__part">
+									<div class="n-infoblock__val" id="n-step">
+
+									</div>
+								</div>
+							</div>
+							<div class="n-infoblock__r">
+								<div class="n-infoblock__part">
+									<div class="n-infoblock__dest" id="n-dest">
+										Арена Омск
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="n-infoblock__timer">
+							Время в пути: около <span></span>
+						</div>
+					</div>
+					<div id="n-map"></div>
+				</div>
+				<div class="n-container">
+					<div class="n-part__header">
+						Схема входов на Арену Омск
+					</div>
+				</div>
+				<div class="n-part__plan">
+					<div class="n-container">
+						<div class="n-part__plan__header">
+							<div class="n-part__plan__check" id="n-1">
+								<div class="n-checker">
+									<div class="n-checker__wrap">
+										<div class="n-checker__circle"></div>
+									</div>
+								</div>
+								<span>Входы</span>
+							</div>
+							<div class="n-part__plan__check" id="n-2">
+								<div class="n-checker">
+									<div class="n-checker__wrap">
+										<div class="n-checker__circle"></div>
+									</div>
+								</div>
+								<span>Парковки</span>
+							</div>
+							<div class="n-part__plan__check" id="n-3">
+								<div class="n-checker">
+									<div class="n-checker__wrap">
+										<div class="n-checker__circle"></div>
+									</div>
+								</div>
+								<span>Вход в магазин</span>
+							</div>
+						</div>
+					</div>
+					<div class="n-part__plan__wrap">
+						<ul>
+							<li class="active">
+								<img src="img/plan4.svg" alt="">
+							</li>
+							<li>
+								<img src="img/plan2.svg" alt="">
+							</li>
+							<li>
+								<img src="img/plan1.svg" alt="">
+							</li>
+							<li>
+								<img src="img/plan3.svg" alt="">
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="n-container">
+					<div class="n-part__header">
+						Услуги
+					</div>
+					<div class="n-part__services">
+						<div class="n-part__service">
+							<div class="n-part__table">
+								<div class="n-part__service__left">
+									<img src="img/n-s1.png" alt="">
+								</div>
+								<div class="n-part__service__right">
+									<div class="n-part__service__header">
+										Детская комната
+									</div>
+									<ul>
+										<li>Где найти: фойе первого этажа, слева от центрального входа</li>
+										<li>Стоимость: бесплатно</li>
+										<li>Режим работы: открывается за час до начала матча и завершает работу по его окончании
+										</li>
+										<li>Принимаем детей с трех лет</li>
+										<li>Работают два воспитателя и анимационная группа</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="n-part__service">
+							<div class="n-part__table">
+								<div class="n-part__service__left">
+									<img src="img/n-s2.png" alt="">
+								</div>
+								<div class="n-part__service__right">
+									<div class="n-part__service__header">
+										Камера хранения
+									</div>
+									<ul>
+										<li>Где найти: слева от арены на парковке автобус с вывеской "КАМЕРА ХРАНЕНИЯ"</li>
+										<li>Стоимость: 100 рублей</li>
+										<li>Режим работы: на все время матча</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="n-part__service">
+							<div class="n-part__table">
+								<div class="n-part__service__left">
+									<img src="img/n-s3.png" alt="">
+								</div>
+								<div class="n-part__service__right">
+									<div class="n-part__service__header">
+										Бар-ресторан "Арена"
+									</div>
+									<ul>
+										<li><a href="http://hawk.ru/tickets/restaurant/">hawk.ru/tickets/restaurant</a></li>
+										<li>Где найти: по левой стороне арены дверь с вывеской "Ресторан "Арена"</li>
+										<li>Стоимость: <a href="http://hawk.ru/tickets/">hawk.ru/tickets</a></li>
+										<li>Режим работы: открывается за час до начала матча и завершает работу по его окончании</li>
+										<li>Телефон: +7 913 628 26 21</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+<!-- Scripts -->
+<script src="js/vendor/jquery.min.js"></script>
+
+<script src="js/scripts.js"></script>
+</html>

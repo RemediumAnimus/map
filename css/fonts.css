@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'pf_din_text_cond_proBdIt';
+    src: url('../fonts/pfdintextcondpro-boldital-wf.eot');
+    src: url('../fonts/pfdintextcondpro-boldital-wf.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdintextcondpro-boldital-wf.woff') format('woff'),
+         url('../fonts/pfdintextcondpro-boldital-wf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_probold';
+    src: url('../fonts/pfdintextcondpro-bold-wf.eot');
+    src: url('../fonts/pfdintextcondpro-bold-wf.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdintextcondpro-bold-wf.woff') format('woff'),
+         url('../fonts/pfdintextcondpro-bold-wf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_proregular';
+    src: url('../fonts/pfdintextcondpro-regular-wf.eot');
+    src: url('../fonts/pfdintextcondpro-regular-wf.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdintextcondpro-regular-wf.woff') format('woff'),
+         url('../fonts/pfdintextcondpro-regular-wf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_promedium';
+    src: url('../fonts/pfdintextcondpro-medium-wf.eot');
+    src: url('../fonts/pfdintextcondpro-medium-wf.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdintextcondpro-medium-wf.woff') format('woff'),
+         url('../fonts/pfdintextcondpro-medium-wf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_dindisplay_proMdIt';
+    src: url('../fonts/pfdindisplaypro-mediumitalic-webfont.eot');
+    src: url('../fonts/pfdindisplaypro-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdindisplaypro-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/pfdindisplaypro-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_proMdIt';
+    src: url('../fonts/pfdintextcondpro-medital-webfont.eot');
+    src: url('../fonts/pfdintextcondpro-medital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdintextcondpro-medital-webfont.woff') format('woff'),
+         url('../fonts/pfdintextcondpro-medital-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PFDinTextPro-Regular';
+    src: url('../fonts/PFDinTextPro-Regular.eot');
+    src: url('../fonts/PFDinTextPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PFDinTextPro-Regular.woff') format('woff'),
+         url('../fonts/PFDinTextPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PFDinTextPro-Medium';
+    src: url('../fonts/PFDinTextPro-Medium.eot');
+    src: url('../fonts/PFDinTextPro-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PFDinTextPro-Medium.woff') format('woff'),
+         url('../fonts/PFDinTextPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
